@@ -1,4 +1,3 @@
-# coding=gbk
 zhuanbanlist=[]
 shibie=True
 while shibie==True:
