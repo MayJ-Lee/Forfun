@@ -1,3 +1,5 @@
+from function import jianyi
+
 zhuanbanlist=[]
 shibie=True
 while shibie==True:
@@ -9,7 +11,7 @@ while shibie==True:
   shibie=False
  elif shuru=='a':
   num=input('insert which position\n')
-  realnum=int(num)-1
+  realnum=jianyi(num)
   name=input('input new member\'s name\n')
   zhuanbanlist.insert(realnum,name)
  elif shuru=='r':
@@ -18,5 +20,5 @@ while shibie==True:
    shibie=False
   else:
    renum=int(input('reduce which position？\n'))
-   realrenum=renum-1
+   realrenum=jianyi(renum)
    zhuanbanlist.pop(realrenum)
